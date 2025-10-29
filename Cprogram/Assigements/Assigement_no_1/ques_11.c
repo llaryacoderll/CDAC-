@@ -24,11 +24,13 @@ int main()
     printf("---------------------------------------------------------------------------------------\n");
     printf("char \t\t\t 1 \t\t %%c \t\t\t %d to %d\n",CHAR_MIN,CHAR_MAX);
     printf("unsigned char \t\t 1 \t\t %%c \t\t\t 0 to %d\n",UCHAR_MAX);
-    printf("short int \t\t 1 \t\t %%c \t\t\t %d to %d\n",SHRT_MIN,SHRT_MAX);
-    printf("unsigned short int \t 1 \t\t %%c \t\t\t %d to %d\n",INT_MIN,INT_MAX);
-    printf("int \t\t\t 1 \t\t %%c \t\t\t %d to %d\n",INT_MIN,INT_MAX);
-    printf("unsigend int \t\t 1 \t\t %%c \t\t\t 0 to %d\n",UINT_MAX);
-    printf("long int \t\t 1 \t\t %%c \t\t\t %ld to %ld\n",LONG_MIN,LLONG_MAX);
-    printf("unsigned long int \t 1 \t\t %%c \t\t\t 0 to %d\n",INT_MIN,INT_MAX);
+    printf("short int \t\t 1 \t\t %%hd \t\t\t %d to %d\n",SHRT_MIN,SHRT_MAX);
+    printf("unsigned short int \t 1 \t\t %%hd \t\t\t 0 to %u\n",USHRT_MAX);
+    printf("int \t\t\t 1 \t\t %%d \t\t\t %d to %d\n",INT_MIN,INT_MAX);
+    printf("unsigend int \t\t 1 \t\t %%d \t\t\t 0 to %u\n",UINT_MAX);
+    printf("long int \t\t 1 \t\t %%ld \t\t\t %ld to %ld\n",LONG_MIN,LONG_MAX);
+    printf("unsigned long int \t 1 \t\t %%lu \t\t\t 0 to %lu\n",ULLONG_MAX);
+    printf("---------------------------------------------------------------------------------------\n");
+
 
 }
